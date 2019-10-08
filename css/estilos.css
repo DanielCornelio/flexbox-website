@@ -162,24 +162,36 @@ a{
     .footer{
     background: #000;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
+    height: 80px;
+    align-items: center;
 
 }
-    .pie{
-        text-align: center;
+    .terminos{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
     }
-    .pie a{
+    .terminos a{
+        text-decoration: none;
         color: #fff;
-        font-size: 11px;
-        text-transform: uppercase;
-        padding: 0 10px;
-        letter-spacing: 2px;
-        width:300px;
-
     }
-    .pie a{
-
+    .terminos a:hover{
+        text-decoration: underline;
+        color: rgb(153, 148, 148);
+    }
+    .redes{
+        width: 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .redes div a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .redes div a:hover{
+        color:rgb(153, 148, 148);
     }
 @media all and (max-width: 1120px){
     .section{
